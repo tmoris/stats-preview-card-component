@@ -75,7 +75,7 @@ img {
   display: flex;
   flex-direction: column-reverse;
   background-color: var(--clr-Darkdesaturatedblue);
-  /* max-width: 50rem; */
+  max-width: 50rem;
 }
 .preview-img-section {
   background-color: var(--clr-Softviolet);
