@@ -75,7 +75,7 @@ img {
   display: flex;
   flex-direction: column-reverse;
   background-color: var(--clr-Darkdesaturatedblue);
-  max-width: 50rem;
+  /* max-width: 50rem; */
 }
 .preview-img-section {
   background-color: var(--clr-Softviolet);
@@ -110,6 +110,11 @@ margin: 1em 0;
 .text-features {
 text-transform: uppercase;
 font-size: var(--fs-small);
+}
+.footer {
+  position: absolute;
+  bottom: 1em;
+  z-index: -1;
 }
 .attribution { 
   font-size: 11px; text-align: center;
